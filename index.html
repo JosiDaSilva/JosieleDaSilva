@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JOSI</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>JOSIELE DA SILVA</h1>
+            <h2>DISEÑADORA / DESARROLLADORA</h2>
+            <div class="redes">
+                <a href="https://linkedin.com/in/josiele-juliete-da-silva/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/543755522693" target="_blank"><i class="fa-brands fa-square-whatsapp"></i>
+                <a href="https://github.com/JosiDaSilva" target="_blank"><i class="fa-brands fa-github"></i>
+                <a href="https://facebook.com/kaizendev2022?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                
+               
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Josiele Da Silva.</span> Como Diseñadora Web y Gráfica especializada, poseo una sólida formación y experiencia en la creación de soluciones visuales atractivas y funcionales. Mi expertise abarca desde el desarrollo web hasta el diseño gráfico, habilidades que he aplicado con éxito en diversos proyectos.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 3755 522693
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            josiele@outlook.com
+                        </li>
+                       
+                      
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-image"></i>
+                            
+                            <H5>DISEÑO</H5>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-hashtag"></i>
+                            <H5>REDES</H5>
+                            <H5>SOCIALES</H5>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-globe"></i>
+                            <H5>WEB</H5>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-wordpress"></i>
+                            <H5>WORDPRESS</H5>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <H5>UX/UI</H5>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-database"></i>
+                            <H5>BASE DE</H5>
+                            <H5>DATOS</H5>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <H5>DESARROLLO</H5>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-rocket"></i>
+                            <H5>APPS</H5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="img/Josiele Da Silva CV.pdf" download="Josiele Da Silva CV.pdf" target="_blank" >
+                
+                Descargar CV <i class="fa-solid fa-download"></i>
+               
+                
+                <span class="overlay"></span>
+           
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React.js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Analista de Sistemas</h4>
+                        <span class="casa">Instituto Superior Santo Domingo</span>
+                        <span class="fecha">2023 - Actualidad</span>
+                        <p>Programa enfocado en  la capacitación para diseñar y desarrollar aplicaciones móviles, web, o de escritorio, gestionar y administrar bases de datos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4> Full Stack Python</h4>
+                        <span class="casa">Codo a Codo</span>
+                        <span class="fecha">2024- Actualidad</span>
+                        <p>Capacitación en desarrollo Web con enfoque en HTML, CSS, JavaScript, Base de Datos, Python.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Formación Oracle One</h4>
+                        <span class="casa">Instituto Alura</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Formación profesional en desarrollo web, diseño, incluyendo Scrum.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="item izq">
+                        <h4>Formación Argentina Programa</h4>
+                        <span class="casa">Instituto INTI</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Formación en desarrollo web con enfásis en Angular, bases de datos y frontend.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Hardcovers</span>
+                        <span class="fecha">2024</span>
+                        <p>Proyectos freelance en desarrollo frontend, Wordpress y diseño.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseñadora</h4>
+                        <span class="casa">Autopartes Sol</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>Liderazgo en desarrollo creativo para diseño y marketing, fortaleciendo la identidad visual y estrategias de branding. Diseño de contenido gráfico optimizado para redes sociales, con análisis de métricas para maximizar el engagement. Producción de contenido audiovisual para campañas promocionales y eventos especiales. Gestión y actualización del diseño web para mejorar la experiencia de usuario y la estética de la marca. Innovación tecnológica mediante el desarrollo de una aplicación de ventas utilizando React, Tailwind CSS y Node.js.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseñadora</h4>
+                        <span class="casa">Servisup</span>
+                        <span class="fecha">2021-2023</span>
+                        <p>Diseñadora especializada en la creación y rediseño de sitios web, manejando plataformas como Wordpress y frameworks como React.js y Angular, integrando soluciones backend mediante APIs, Node.js y MySQL.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre" id="nombres">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+
+                    <textarea name=""  cols="30" rows="10" placeholder="Mensaje" id="mensaje"></textarea>
+                    <button id="send">
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Hipólito Yrigoyen 425, Oberá, Mnes
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 03755-522693 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: josiele@outlook.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+       
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
