@@ -315,6 +315,24 @@ html{
     100%{width: 85%;}
 }
 
+
+.skills .skill .angular{
+    width: 0%;
+    animation: 2s reactjs forwards;
+}
+@keyframes angular {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+.skills .skill .python{
+    width: 0%;
+    animation: 2s reactjs forwards;
+}
+@keyframes python {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
 .skills .skill .comunicacion{
     width: 0%;
     animation: 2s comunicacion forwards;
