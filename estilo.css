@@ -318,7 +318,7 @@ html{
 
 .skills .skill .angular{
     width: 0%;
-    animation: 2s reactjs forwards;
+    animation: 2s angular forwards;
 }
 @keyframes angular {
     0%{width: 0%;}
@@ -326,7 +326,7 @@ html{
 }
 .skills .skill .python{
     width: 0%;
-    animation: 2s reactjs forwards;
+    animation: 2s python forwards;
 }
 @keyframes python {
     0%{width: 0%;}
